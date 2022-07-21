@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "view": "nuxt start",
     "gen": "nuxt generate",
     "analyze": "nuxt build --analyze",
     "dev:server": "node server/index.js --watch server"
