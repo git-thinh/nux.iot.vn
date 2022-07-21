@@ -1,0 +1,15 @@
+[
+  {
+    "name": "icons-list",
+    "path": "/_icons",
+    "component": "D:\\MMO\\nux.iot.vn\\node_modules\\@nuxtjs\\svg-sprite\\lib\\pages\\icons-list.vue",
+    "url": "/_icons",
+    "_name": "_79c0198e"
+  },
+  {
+    "name": "content",
+    "path": "*",
+    "component": "D:\\\\MMO\\\\nux.iot.vn\\\\pages\\\\index.vue",
+    "_name": "_02bb127e"
+  }
+]

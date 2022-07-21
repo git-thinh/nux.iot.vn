@@ -1,0 +1,53 @@
+{
+  "name": "sc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "gen": "nuxt generate",
+    "analyze": "nuxt build --analyze",
+    "dev:server": "node server/index.js --watch server"
+  },
+  "dependencies": {
+    "@nuxt/builder": "^2.15.8",
+    "@nuxt/components": "^2.2.1",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/netlify-files": "^1.2.0",
+    "@nuxtjs/recaptcha": "^1.1.1",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@nuxtjs/svg-sprite": "^0.5.2",
+    "@types/lodash": "^4.14.182",
+    "adm-zip": "^0.5.9",
+    "clean-css": "^5.3.1",
+    "core-js": "^3.19.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "fs-extra": "^10.1.0",
+    "localforage": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "nuxt": "^2.15.8",
+    "nuxt-property-decorator": "^2.9.1",
+    "postcss": "^7.0.39",
+    "postcss-calc": "7.0.2",
+    "postcss-custom-media": "7.0.8",
+    "postcss-custom-properties": "9.1.1",
+    "postcss-html": "0.36.0",
+    "postcss-import": "12.0.1",
+    "postcss-nested": "^4.2.1",
+    "postcss-preset-env": "6.7.0",
+    "postcss-reporter": "6.0.1",
+    "postcss-syntax": "^0.36.2",
+    "serve": "^14.0.1",
+    "uglify-js": "^3.16.2",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "@nuxt/typescript-build": "^2.1.0"
+  }
+}
